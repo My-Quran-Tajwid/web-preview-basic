@@ -15,9 +15,15 @@ body {
 
 .ayat-quran {
     font-family: 'QCF4_Hafs_Color';
-    font-size: 40px;
+    font-size: 2.2rem;
     direction: rtl;
     unicode-bidi: bidi-override;
+}
+
+@media only screen and (max-width: 600px) {
+    .ayat-quran {
+        font-size: 1.8rem;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
