@@ -1,0 +1,117 @@
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.PageHeader {
+    font-family: 'QCF4_QBSML';
+    font-size: 32pt;
+    cursor: default;
+}
+
+.SuraFirstPage {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    margin-right: 330px;
+    margin-left: 200px;
+}
+
+.SuraSecondPage {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 330px;
+}
+
+.Sura {
+    height: 45px;
+    width: 444px;
+    line-height: 1.8;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    cursor: default;
+}
+
+.LineFirstPage {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    line-height: 1.1;
+    margin-right: 140px;
+}
+
+.LineSecondPage {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    line-height: 1.1;
+    margin-right: -130px;
+}
+
+.LineBasmala {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    line-height: 1;
+}
+
+.LineAlignCenter {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    line-height: 1.08;
+}
+
+.Line {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-kashida-space: 0;
+    line-height: 1.09;
+}
+
+.WordFirstPage {
+    font-size: 15pt;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    cursor: default;
+}
+
+.WordSecondPage {
+    font-size: 15pt;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    cursor: default;
+}
+
+.WordSura {
+    font-size: 18pt;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    cursor: default;
+}
+
+.WordBasmala {
+    font-size: 16pt;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    -ms-user-select: none;
+    cursor: default;
+}
+
+.Word {
+    font-size: 19pt;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    cursor: default;
+}
+
+@font-face {
+    font-family: 'QCF4_Hafs_01_W_COLOR';
+    src: url('../static/fonts/QCF4_Hafs_01_W_COLOR.woff2') format('woff2');
+}
