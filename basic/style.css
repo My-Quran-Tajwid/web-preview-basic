@@ -1,0 +1,41 @@
+@font-palette-values --Dark {
+    font-family: QCF4_Hafs_Color;
+    base-palette: 1;
+}
+
+@font-face {
+    font-family: 'QCF4_Hafs_Color';
+    src: url('../static/fonts/QCF4_Hafs_01_W_COLOR.woff2') format('woff2'), ;
+}
+
+body {
+    padding: 1em;
+    margin: 1em;
+}
+
+.ayat-quran {
+    font-family: 'QCF4_Hafs_Color';
+    font-size: 2.2rem;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+@media only screen and (max-width: 600px) {
+    .ayat-quran {
+        font-size: 1.8rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181818;
+    }
+
+    p {
+        color: #eee;
+    }
+
+    .ayat-quran {
+        font-palette: --Dark;
+    }
+}

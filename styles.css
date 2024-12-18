@@ -1,41 +1,25 @@
-@font-palette-values --Dark {
-    font-family: QCF4_Hafs_Color;
-    base-palette: 1;
-}
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 400 to 700 */
 
-@font-face {
-    font-family: 'QCF4_Hafs_Color';
-    src: url('static/QCF4_Hafs_01_W_COLOR-Regular.woff2') format('woff2'), ;
-}
+/* .lora-<uniquifier> {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+} */
 
 body {
-    padding: 1em;
-    margin: 1em;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
-.ayat-quran {
-    font-family: 'QCF4_Hafs_Color';
-    font-size: 2.2rem;
-    direction: rtl;
-    unicode-bidi: bidi-override;
-}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
 
-@media only screen and (max-width: 600px) {
-    .ayat-quran {
-        font-size: 1.8rem;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #181818;
-    }
-
-    p {
-        color: #eee;
-    }
-
-    .ayat-quran {
-        font-palette: --Dark;
-    }
 }
