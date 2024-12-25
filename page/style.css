@@ -6,10 +6,26 @@
     background-color: blue;
 }
 
-.PageHeader {
-    font-family: 'QCF4_QBSML';
+.PageHeaderSurah {
+    font-family: 'QuranArabicMudah';
+    font-size: 23pt;
+    cursor: default;
+}
+
+.PageHeaderJuzuk {
+    font-family: 'JuzukFont';
     font-size: 32pt;
     cursor: default;
+}
+
+.table-container {
+    display: inline-flex;
+}
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        display: block;
+    }
 }
 
 .SuraFirstPage {
@@ -114,4 +130,14 @@
 @font-face {
     font-family: 'QCF4_Hafs_01_W_COLOR';
     src: url('../static/fonts/QCF4_Hafs_01_W_COLOR.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'QuranArabicMudah';
+    src: url('../static/fonts/QuranArabicMudah-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'JuzukFont';
+    src: url('../static/fonts/QCF4_Juzuk_Mudah-Regular.woff2') format('woff2');
 }
