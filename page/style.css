@@ -26,6 +26,14 @@
     .table-container {
         display: block;
     }
+
+    .page {
+        border-bottom: .01px solid gainsboro;
+    }
+}
+
+.page {
+    border-left: .01px solid gainsboro;
 }
 
 .SuraFirstPage {
