@@ -1,5 +1,5 @@
 @font-palette-values --Dark {
-    font-family: QCF4_Hafs_Color_01;
+    font-family: QCF4_Hafs_01_W_COLOR;
     base-palette: 1;
     /* override-colors: 2 #9874ce; */
 }
@@ -39,9 +39,6 @@ body {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #181818;
-    }
-
-    p {
         color: #eee;
     }
 

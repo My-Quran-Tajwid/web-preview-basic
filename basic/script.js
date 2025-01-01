@@ -38,6 +38,9 @@ async function populateAyat(params) {
 
     const bodyElement = document.getElementById('body');
 
+    // clear placeholder inside body
+    bodyElement.innerHTML = '';
+
     // Override for RTL text direction
     const rtlOverride = '‮';
 
