@@ -1,11 +1,11 @@
 @font-palette-values --Dark {
-    font-family: QCF4_Hafs_Color;
+    font-family: QCF4_Hafs_Color_01;
     base-palette: 1;
     /* override-colors: 2 #9874ce; */
 }
 
 @font-face {
-    font-family: 'QCF4_Hafs_Color';
+    font-family: 'QCF4_Hafs_Color_01';
     src: url('../static/fonts/QCF4_Hafs_01_W_COLOR-Regular.woff2') format('woff2'), ;
 }
 
@@ -15,7 +15,6 @@ body {
 }
 
 .ayat-quran {
-    font-family: 'QCF4_Hafs_Color';
     font-size: 2.2rem;
     direction: rtl;
     unicode-bidi: bidi-override;

@@ -1,0 +1,801 @@
+{
+"Hafs_Sura": [
+	{
+		"ID" : 1,
+		"Name" : "الفاتحة",
+		"Place" : "مكية",
+		"VerseCount" : 7,
+		"PageNo" : 1
+	},
+	{
+		"ID" : 2,
+		"Name" : "البقرة",
+		"Place" : "مدنية",
+		"VerseCount" : 286,
+		"PageNo" : 2
+	},
+	{
+		"ID" : 3,
+		"Name" : "آل عمران",
+		"Place" : "مدنية",
+		"VerseCount" : 200,
+		"PageNo" : 50
+	},
+	{
+		"ID" : 4,
+		"Name" : "النساء",
+		"Place" : "مدنية",
+		"VerseCount" : 176,
+		"PageNo" : 77
+	},
+	{
+		"ID" : 5,
+		"Name" : "المائدة",
+		"Place" : "مدنيّة",
+		"VerseCount" : 120,
+		"PageNo" : 106
+	},
+	{
+		"ID" : 6,
+		"Name" : "الأنعام",
+		"Place" : "مكية",
+		"VerseCount" : 165,
+		"PageNo" : 128
+	},
+	{
+		"ID" : 7,
+		"Name" : "الأعراف",
+		"Place" : "مكية",
+		"VerseCount" : 206,
+		"PageNo" : 151
+	},
+	{
+		"ID" : 8,
+		"Name" : "الأنفال",
+		"Place" : "مدنية",
+		"VerseCount" : 75,
+		"PageNo" : 177
+	},
+	{
+		"ID" : 9,
+		"Name" : "التوبة",
+		"Place" : "مدنية",
+		"VerseCount" : 129,
+		"PageNo" : 187
+	},
+	{
+		"ID" : 10,
+		"Name" : "يونس",
+		"Place" : "مكية",
+		"VerseCount" : 109,
+		"PageNo" : 208
+	},
+	{
+		"ID" : 11,
+		"Name" : "هود",
+		"Place" : "مكية",
+		"VerseCount" : 123,
+		"PageNo" : 221
+	},
+	{
+		"ID" : 12,
+		"Name" : "يوسف",
+		"Place" : "مكية",
+		"VerseCount" : 111,
+		"PageNo" : 235
+	},
+	{
+		"ID" : 13,
+		"Name" : "الرعد",
+		"Place" : "مدنية",
+		"VerseCount" : 43,
+		"PageNo" : 249
+	},
+	{
+		"ID" : 14,
+		"Name" : "ابراهيم",
+		"Place" : "مكية",
+		"VerseCount" : 52,
+		"PageNo" : 255
+	},
+	{
+		"ID" : 15,
+		"Name" : "الحجر",
+		"Place" : "مكية",
+		"VerseCount" : 99,
+		"PageNo" : 262
+	},
+	{
+		"ID" : 16,
+		"Name" : "النحل",
+		"Place" : "مكية",
+		"VerseCount" : 128,
+		"PageNo" : 267
+	},
+	{
+		"ID" : 17,
+		"Name" : "الإسراء",
+		"Place" : "مكية",
+		"VerseCount" : 111,
+		"PageNo" : 282
+	},
+	{
+		"ID" : 18,
+		"Name" : "الكهف",
+		"Place" : "مكية",
+		"VerseCount" : 110,
+		"PageNo" : 293
+	},
+	{
+		"ID" : 19,
+		"Name" : "مريم",
+		"Place" : "مكية",
+		"VerseCount" : 98,
+		"PageNo" : 305
+	},
+	{
+		"ID" : 20,
+		"Name" : "طه",
+		"Place" : "مكية",
+		"VerseCount" : 135,
+		"PageNo" : 312
+	},
+	{
+		"ID" : 21,
+		"Name" : "الأنبياء",
+		"Place" : "مكية",
+		"VerseCount" : 112,
+		"PageNo" : 322
+	},
+	{
+		"ID" : 22,
+		"Name" : "الحج",
+		"Place" : "مدنية",
+		"VerseCount" : 78,
+		"PageNo" : 332
+	},
+	{
+		"ID" : 23,
+		"Name" : "المؤمنون",
+		"Place" : "مكية",
+		"VerseCount" : 118,
+		"PageNo" : 342
+	},
+	{
+		"ID" : 24,
+		"Name" : "النور",
+		"Place" : "مدنية",
+		"VerseCount" : 64,
+		"PageNo" : 350
+	},
+	{
+		"ID" : 25,
+		"Name" : "الفرقان",
+		"Place" : "مكية",
+		"VerseCount" : 77,
+		"PageNo" : 359
+	},
+	{
+		"ID" : 26,
+		"Name" : "الشعراء",
+		"Place" : "مكية",
+		"VerseCount" : 227,
+		"PageNo" : 367
+	},
+	{
+		"ID" : 27,
+		"Name" : "النمل",
+		"Place" : "مكية",
+		"VerseCount" : 93,
+		"PageNo" : 377
+	},
+	{
+		"ID" : 28,
+		"Name" : "القصص",
+		"Place" : "مكية",
+		"VerseCount" : 88,
+		"PageNo" : 385
+	},
+	{
+		"ID" : 29,
+		"Name" : "العنكبوت",
+		"Place" : "مكية",
+		"VerseCount" : 69,
+		"PageNo" : 396
+	},
+	{
+		"ID" : 30,
+		"Name" : "الروم",
+		"Place" : "مكية",
+		"VerseCount" : 60,
+		"PageNo" : 404
+	},
+	{
+		"ID" : 31,
+		"Name" : "لقمان",
+		"Place" : "مكية",
+		"VerseCount" : 34,
+		"PageNo" : 411
+	},
+	{
+		"ID" : 32,
+		"Name" : "السجدة",
+		"Place" : "مكية",
+		"VerseCount" : 30,
+		"PageNo" : 415
+	},
+	{
+		"ID" : 33,
+		"Name" : "الأحزاب",
+		"Place" : "مدنية",
+		"VerseCount" : 73,
+		"PageNo" : 418
+	},
+	{
+		"ID" : 34,
+		"Name" : "سبأ",
+		"Place" : "مكية",
+		"VerseCount" : 54,
+		"PageNo" : 428
+	},
+	{
+		"ID" : 35,
+		"Name" : "فاطر",
+		"Place" : "مكية",
+		"VerseCount" : 45,
+		"PageNo" : 434
+	},
+	{
+		"ID" : 36,
+		"Name" : "يس",
+		"Place" : "مكية",
+		"VerseCount" : 83,
+		"PageNo" : 440
+	},
+	{
+		"ID" : 37,
+		"Name" : "الصافات",
+		"Place" : "مكية",
+		"VerseCount" : 181,
+		"PageNo" : 446
+	},
+	{
+		"ID" : 38,
+		"Name" : "ص",
+		"Place" : "مكية",
+		"VerseCount" : 88,
+		"PageNo" : 453
+	},
+	{
+		"ID" : 39,
+		"Name" : "الزمر",
+		"Place" : "مكية",
+		"VerseCount" : 75,
+		"PageNo" : 458
+	},
+	{
+		"ID" : 40,
+		"Name" : "غافر",
+		"Place" : "مكية",
+		"VerseCount" : 85,
+		"PageNo" : 467
+	},
+	{
+		"ID" : 41,
+		"Name" : "فصلت",
+		"Place" : "مكية",
+		"VerseCount" : 54,
+		"PageNo" : 477
+	},
+	{
+		"ID" : 42,
+		"Name" : "الشورى",
+		"Place" : "مكية",
+		"VerseCount" : 53,
+		"PageNo" : 483
+	},
+	{
+		"ID" : 43,
+		"Name" : "الزخرف",
+		"Place" : "مكية",
+		"VerseCount" : 89,
+		"PageNo" : 489
+	},
+	{
+		"ID" : 44,
+		"Name" : "الدخان",
+		"Place" : "مكية",
+		"VerseCount" : 59,
+		"PageNo" : 496
+	},
+	{
+		"ID" : 45,
+		"Name" : "الجاثية",
+		"Place" : "مكية",
+		"VerseCount" : 37,
+		"PageNo" : 499
+	},
+	{
+		"ID" : 46,
+		"Name" : "الأحقاف",
+		"Place" : "مكية",
+		"VerseCount" : 35,
+		"PageNo" : 502
+	},
+	{
+		"ID" : 47,
+		"Name" : "محمد",
+		"Place" : "مدنية",
+		"VerseCount" : 38,
+		"PageNo" : 507
+	},
+	{
+		"ID" : 48,
+		"Name" : "الفتح",
+		"Place" : "مدنية",
+		"VerseCount" : 29,
+		"PageNo" : 511
+	},
+	{
+		"ID" : 49,
+		"Name" : "الحجرات",
+		"Place" : "مدنية",
+		"VerseCount" : 18,
+		"PageNo" : 515
+	},
+	{
+		"ID" : 50,
+		"Name" : "ق",
+		"Place" : "مكية",
+		"VerseCount" : 45,
+		"PageNo" : 518
+	},
+	{
+		"ID" : 51,
+		"Name" : "الذاريات",
+		"Place" : "مكية",
+		"VerseCount" : 60,
+		"PageNo" : 520
+	},
+	{
+		"ID" : 52,
+		"Name" : "الطور",
+		"Place" : "مكية",
+		"VerseCount" : 49,
+		"PageNo" : 523
+	},
+	{
+		"ID" : 53,
+		"Name" : "النجم",
+		"Place" : "مكية",
+		"VerseCount" : 62,
+		"PageNo" : 526
+	},
+	{
+		"ID" : 54,
+		"Name" : "القمر",
+		"Place" : "مكية",
+		"VerseCount" : 55,
+		"PageNo" : 528
+	},
+	{
+		"ID" : 55,
+		"Name" : "الرحمن",
+		"Place" : "مدنية",
+		"VerseCount" : 78,
+		"PageNo" : 531
+	},
+	{
+		"ID" : 56,
+		"Name" : "الواقعة",
+		"Place" : "مكية",
+		"VerseCount" : 96,
+		"PageNo" : 534
+	},
+	{
+		"ID" : 57,
+		"Name" : "الحديد",
+		"Place" : "مدنية",
+		"VerseCount" : 29,
+		"PageNo" : 537
+	},
+	{
+		"ID" : 58,
+		"Name" : "المجادلة",
+		"Place" : "مدنية",
+		"VerseCount" : 22,
+		"PageNo" : 542
+	},
+	{
+		"ID" : 59,
+		"Name" : "الحشر",
+		"Place" : "مدنية",
+		"VerseCount" : 24,
+		"PageNo" : 545
+	},
+	{
+		"ID" : 60,
+		"Name" : "الممتحنة",
+		"Place" : "مدنية",
+		"VerseCount" : 13,
+		"PageNo" : 549
+	},
+	{
+		"ID" : 61,
+		"Name" : "الصف",
+		"Place" : "مدنية",
+		"VerseCount" : 14,
+		"PageNo" : 551
+	},
+	{
+		"ID" : 62,
+		"Name" : "الجمعة",
+		"Place" : "مدنية",
+		"VerseCount" : 11,
+		"PageNo" : 553
+	},
+	{
+		"ID" : 63,
+		"Name" : "المنافقون",
+		"Place" : "مدنية",
+		"VerseCount" : 11,
+		"PageNo" : 554
+	},
+	{
+		"ID" : 64,
+		"Name" : "التغابن",
+		"Place" : "مدنية",
+		"VerseCount" : 18,
+		"PageNo" : 556
+	},
+	{
+		"ID" : 65,
+		"Name" : "الطلاق",
+		"Place" : "مدنية",
+		"VerseCount" : 12,
+		"PageNo" : 558
+	},
+	{
+		"ID" : 66,
+		"Name" : "التحريم",
+		"Place" : "مدنية",
+		"VerseCount" : 12,
+		"PageNo" : 560
+	},
+	{
+		"ID" : 67,
+		"Name" : "الملك",
+		"Place" : "مكية",
+		"VerseCount" : 30,
+		"PageNo" : 562
+	},
+	{
+		"ID" : 68,
+		"Name" : "القلم",
+		"Place" : "مكية",
+		"VerseCount" : 52,
+		"PageNo" : 564
+	},
+	{
+		"ID" : 69,
+		"Name" : "الحاقة",
+		"Place" : "مكية",
+		"VerseCount" : 52,
+		"PageNo" : 566
+	},
+	{
+		"ID" : 70,
+		"Name" : "المعارج",
+		"Place" : "مكية",
+		"VerseCount" : 44,
+		"PageNo" : 568
+	},
+	{
+		"ID" : 71,
+		"Name" : "نوح",
+		"Place" : "مكية",
+		"VerseCount" : 28,
+		"PageNo" : 570
+	},
+	{
+		"ID" : 72,
+		"Name" : "الجن",
+		"Place" : "مكية",
+		"VerseCount" : 28,
+		"PageNo" : 572
+	},
+	{
+		"ID" : 73,
+		"Name" : "المزمل",
+		"Place" : "مكية",
+		"VerseCount" : 20,
+		"PageNo" : 574
+	},
+	{
+		"ID" : 74,
+		"Name" : "المدثر",
+		"Place" : "مكية",
+		"VerseCount" : 56,
+		"PageNo" : 575
+	},
+	{
+		"ID" : 75,
+		"Name" : "القيامة",
+		"Place" : "مكية",
+		"VerseCount" : 40,
+		"PageNo" : 577
+	},
+	{
+		"ID" : 76,
+		"Name" : "الإنسان",
+		"Place" : "مدنية",
+		"VerseCount" : 31,
+		"PageNo" : 578
+	},
+	{
+		"ID" : 77,
+		"Name" : "المرسلات",
+		"Place" : "مكية",
+		"VerseCount" : 50,
+		"PageNo" : 580
+	},
+	{
+		"ID" : 78,
+		"Name" : "النبأ",
+		"Place" : "مكية",
+		"VerseCount" : 40,
+		"PageNo" : 582
+	},
+	{
+		"ID" : 79,
+		"Name" : "النازعات",
+		"Place" : "مكية",
+		"VerseCount" : 46,
+		"PageNo" : 583
+	},
+	{
+		"ID" : 80,
+		"Name" : "عبس",
+		"Place" : "مكية",
+		"VerseCount" : 42,
+		"PageNo" : 585
+	},
+	{
+		"ID" : 81,
+		"Name" : "التكوير",
+		"Place" : "مكية",
+		"VerseCount" : 29,
+		"PageNo" : 586
+	},
+	{
+		"ID" : 82,
+		"Name" : "الإنفطار",
+		"Place" : "مكية",
+		"VerseCount" : 19,
+		"PageNo" : 587
+	},
+	{
+		"ID" : 83,
+		"Name" : "المطففين",
+		"Place" : "مكية",
+		"VerseCount" : 36,
+		"PageNo" : 587
+	},
+	{
+		"ID" : 84,
+		"Name" : "الانشقاق",
+		"Place" : "مكية",
+		"VerseCount" : 25,
+		"PageNo" : 589
+	},
+	{
+		"ID" : 85,
+		"Name" : "البروج",
+		"Place" : "مكية",
+		"VerseCount" : 22,
+		"PageNo" : 590
+	},
+	{
+		"ID" : 86,
+		"Name" : "الطارق",
+		"Place" : "مكية",
+		"VerseCount" : 17,
+		"PageNo" : 591
+	},
+	{
+		"ID" : 87,
+		"Name" : "الأعلى",
+		"Place" : "مكية",
+		"VerseCount" : 19,
+		"PageNo" : 591
+	},
+	{
+		"ID" : 88,
+		"Name" : "الغاشية",
+		"Place" : "مكية",
+		"VerseCount" : 26,
+		"PageNo" : 592
+	},
+	{
+		"ID" : 89,
+		"Name" : "الفجر",
+		"Place" : "مكية",
+		"VerseCount" : 30,
+		"PageNo" : 593
+	},
+	{
+		"ID" : 90,
+		"Name" : "البلد",
+		"Place" : "مكية",
+		"VerseCount" : 20,
+		"PageNo" : 594
+	},
+	{
+		"ID" : 91,
+		"Name" : "الشمس",
+		"Place" : "مكية",
+		"VerseCount" : 15,
+		"PageNo" : 595
+	},
+	{
+		"ID" : 92,
+		"Name" : "الليل",
+		"Place" : "مكية",
+		"VerseCount" : 21,
+		"PageNo" : 595
+	},
+	{
+		"ID" : 93,
+		"Name" : "الضحى",
+		"Place" : "مكية",
+		"VerseCount" : 11,
+		"PageNo" : 596
+	},
+	{
+		"ID" : 94,
+		"Name" : "الشرح",
+		"Place" : "مكية",
+		"VerseCount" : 8,
+		"PageNo" : 596
+	},
+	{
+		"ID" : 95,
+		"Name" : "التين",
+		"Place" : "مكية",
+		"VerseCount" : 8,
+		"PageNo" : 597
+	},
+	{
+		"ID" : 96,
+		"Name" : "العلق",
+		"Place" : "مكية",
+		"VerseCount" : 19,
+		"PageNo" : 597
+	},
+	{
+		"ID" : 97,
+		"Name" : "القدر",
+		"Place" : "مكية",
+		"VerseCount" : 5,
+		"PageNo" : 598
+	},
+	{
+		"ID" : 98,
+		"Name" : "البينة",
+		"Place" : "مدنية",
+		"VerseCount" : 8,
+		"PageNo" : 598
+	},
+	{
+		"ID" : 99,
+		"Name" : "الزلزلة",
+		"Place" : "مدنية",
+		"VerseCount" : 8,
+		"PageNo" : 599
+	},
+	{
+		"ID" : 100,
+		"Name" : "العاديات",
+		"Place" : "مكية",
+		"VerseCount" : 11,
+		"PageNo" : 599
+	},
+	{
+		"ID" : 101,
+		"Name" : "القارعة",
+		"Place" : "مكية",
+		"VerseCount" : 11,
+		"PageNo" : 600
+	},
+	{
+		"ID" : 102,
+		"Name" : "التكاثر",
+		"Place" : "مكية",
+		"VerseCount" : 8,
+		"PageNo" : 600
+	},
+	{
+		"ID" : 103,
+		"Name" : "العصر",
+		"Place" : "مكية",
+		"VerseCount" : 3,
+		"PageNo" : 601
+	},
+	{
+		"ID" : 104,
+		"Name" : "الهمزة",
+		"Place" : "مكية",
+		"VerseCount" : 9,
+		"PageNo" : 601
+	},
+	{
+		"ID" : 105,
+		"Name" : "الفيل",
+		"Place" : "مكية",
+		"VerseCount" : 5,
+		"PageNo" : 601
+	},
+	{
+		"ID" : 106,
+		"Name" : "قريش",
+		"Place" : "مكية",
+		"VerseCount" : 4,
+		"PageNo" : 602
+	},
+	{
+		"ID" : 107,
+		"Name" : "الماعون",
+		"Place" : "مكية",
+		"VerseCount" : 7,
+		"PageNo" : 602
+	},
+	{
+		"ID" : 108,
+		"Name" : "الكوثر",
+		"Place" : "مكية",
+		"VerseCount" : 3,
+		"PageNo" : 602
+	},
+	{
+		"ID" : 109,
+		"Name" : "الكافرون",
+		"Place" : "مكية",
+		"VerseCount" : 6,
+		"PageNo" : 603
+	},
+	{
+		"ID" : 110,
+		"Name" : "النصر",
+		"Place" : "مدنية",
+		"VerseCount" : 3,
+		"PageNo" : 603
+	},
+	{
+		"ID" : 111,
+		"Name" : "المسد",
+		"Place" : "مكية",
+		"VerseCount" : 5,
+		"PageNo" : 603
+	},
+	{
+		"ID" : 112,
+		"Name" : "الإخلاص",
+		"Place" : "مكية",
+		"VerseCount" : 4,
+		"PageNo" : 604
+	},
+	{
+		"ID" : 113,
+		"Name" : "الفلق",
+		"Place" : "مدنية",
+		"VerseCount" : 5,
+		"PageNo" : 604
+	},
+	{
+		"ID" : 114,
+		"Name" : "الناس",
+		"Place" : "مدنية",
+		"VerseCount" : 6,
+		"PageNo" : 604
+	}
+]}
