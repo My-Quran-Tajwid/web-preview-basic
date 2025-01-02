@@ -32,59 +32,54 @@ async function loadSurahNameMapping(params) {
 // 7	Quarter Mark
 // 8	Sagda Markes
 
-async function populateAyat(params) {
+async function populateAyat() {
     const wordMapping = await loadWordMapping();
     const surahMapping = await loadSurahNameMapping();
 
     const bodyElement = document.getElementById('body');
-
-    // clear placeholder inside body
     bodyElement.innerHTML = '';
 
     // Override for RTL text direction
     const rtlOverride = '‮';
-
-    // Create the outer div to hold all Surahs
-    const surahDiv = document.createElement('div');
+    const surahDiv = document.createDocumentFragment(); // Use DocumentFragment for better performance
 
     let currentSurah = null;
+    let surahParagraph = null;
 
-    // Iterate over the wordMapping
     for (let i = 0; i < wordMapping.length; i++) {
         // Check if the current Surah is different from the previous one
         if (wordMapping[i].Sura !== currentSurah) {
-            // If there is a previous Surah, append the paragraph
-            if (currentSurah !== null) {
-                // Append the surahParagraph to the surahDiv
+            if (surahParagraph) {
                 surahDiv.appendChild(surahParagraph);
             }
 
-            // Update the current Surah
             currentSurah = wordMapping[i].Sura;
 
-            // Create a new div for the Surah title
             const surahTitle = document.createElement('div');
             surahTitle.className = 'surah-title';
             surahTitle.innerText = `Surah ${surahMapping[currentSurah - 1]?.Name ?? 'Unknown'}`;
             surahDiv.appendChild(surahTitle);
 
-            // Create a new paragraph for the current Surah's ayat
             surahParagraph = document.createElement('p');
             surahParagraph.className = 'ayat-quran';
-            surahParagraph.innerHTML += rtlOverride;  // Apply RTL override
+            surahParagraph.innerHTML = rtlOverride; // Initialize with RTL override
         }
 
-        // Add the current word to the surahParagraph
+        // Intentionally have space character at the end of the file so that it can
+        // wraps if not fit.
         surahParagraph.innerHTML += `<span style="font-family: ${wordMapping[i].FontName}_COLOR;">&#${wordMapping[i].FontCode};</span> `;
+
         // Basmalah
         if (wordMapping[i].Type == 4) {
             surahParagraph.innerHTML += '<br>';
         }
     }
 
-    surahDiv.appendChild(surahParagraph);
+    if (surahParagraph) {
+        surahDiv.appendChild(surahParagraph);
+    }
 
-    bodyElement.appendChild(surahDiv);
+    bodyElement.appendChild(surahDiv); // Append all at once
 }
 
 populateAyat();
