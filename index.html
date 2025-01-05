@@ -17,8 +17,11 @@
         Coloured Quran Fonts Web Demo
     </h1>
     <p>
-        <a href="basic">Simple Demo</a>
+        <a href="#" id="basic-link">Simple Demo</a>
     </p>
+    <div id="basic-list" class="hidden link-inline">
+        <!-- This list will be populated dynamically -->
+    </div>
     <p>
         <a href="page">Page Demo</a>
     </p>
@@ -26,6 +29,24 @@
     <footer>
         <a href="https://github.com/My-Quran-Tajwid">GitHub</a>
     </footer>
+
+    <script>
+        // Populate the list dynamically with a for loop
+        const basicListContainer = document.getElementById("basic-list");
+        for (let i = 0; i <= 1; i++) {
+            const anchor = document.createElement("a");
+            anchor.textContent = `${String(i + 1).padStart(2, '0')}`;
+            anchor.href = `basic?fontIndex=${i + 1}`;
+            basicListContainer.appendChild(anchor);
+        }
+
+        // Add expand/collapse functionality
+        document.getElementById("basic-link").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default link action
+            basicListContainer.classList.toggle("hidden"); // Toggle visibility
+        });
+
+    </script>
 
 </body>
 

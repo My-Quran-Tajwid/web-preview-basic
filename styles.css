@@ -21,5 +21,16 @@ footer {
     bottom: 0;
     width: 100%;
     padding-bottom: 10px;
+}
 
+.hidden {
+    display: none;
+}
+
+.link-inline {
+    margin-top: 10px;
+}
+
+.link-inline a {
+    margin: 0 5px;
 }
