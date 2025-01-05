@@ -1,6 +1,6 @@
-async function loadWordMapping(params) {
+async function loadWordMapping(fontIndex) {
     try {
-        const response = await fetch('../data/per-font-family/Hafs_Word_QCF_01.json');
+        const response = await fetch(`../data/per-font-family/Hafs_Word_QCF_${String(fontIndex).padStart(2, '0')}.json`);
         const data = await response.json();
         const hafsWordMapping = data.Hafs_Word;
         return hafsWordMapping;
@@ -32,11 +32,18 @@ async function loadSurahNameMapping(params) {
 // 7	Quarter Mark
 // 8	Sagda Markes
 
-async function populateAyat() {
-    const wordMapping = await loadWordMapping();
+async function populateAyat(fontIndex) {
+    const wordMapping = await loadWordMapping(fontIndex);
     const surahMapping = await loadSurahNameMapping();
 
-    const bodyElement = document.getElementById('body');
+    // if wordMapping is empty, show error message
+    if (wordMapping.length === 0) {
+        const bodyElement = document.getElementById('body-quran');
+        bodyElement.innerHTML = 'Error loading data';
+        return;
+    }
+
+    const bodyElement = document.getElementById('body-quran');
     bodyElement.innerHTML = '';
 
     // Override for RTL text direction
@@ -82,4 +89,24 @@ async function populateAyat() {
     bodyElement.appendChild(surahDiv); // Append all at once
 }
 
-populateAyat();
+/// Set page title
+function setPageTitle(fontIndex) {
+    let titleDiv = document.getElementById('page-title');
+    titleDiv.innerHTML = `Font <code>QCF4_Hafs_${String(fontIndex).padStart(2, '0')}_W_COLOR</code>`;
+
+}
+
+
+// Get query param
+function getQueryParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+let fontIndex = getQueryParam('fontIndex');
+if (fontIndex === null) {
+    fontIndex = 1;
+}
+
+setPageTitle(fontIndex);
+populateAyat(fontIndex);
