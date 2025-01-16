@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'QCF4_Hafs_01_W_COLOR';
-    src: url('../static/fonts/QCF4_Hafs_01_W_COLOR-Regular.woff2') format('woff2');
+    src: url('../static/quran-fonts/fonts/King Fahd Complex/Hafs-QCF4-Colors/woff2/QCF4_Hafs_01_W_COLOR-Regular.woff2') format('woff2'),
+        url('../static/quran-fonts/fonts/King Fahd Complex/Hafs-QCF4-Colors/woff/QCF4_Hafs_01_W_COLOR-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'QCF4_Juzuk_Surah';
-    src: url('../static/fonts/QCF4_Surah_Juzuk_Mudah-Regular.woff2') format('woff2');
+    src: url('../static/quran-fonts/fonts/King Fahd Complex/Custom/woff2/QCF4_Surah_Juzuk_Mudah-Regular.woff2') format('woff2');
 }
 
 .PageHeaderSurah {

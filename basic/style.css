@@ -6,7 +6,8 @@
 
 @font-face {
     font-family: 'QCF4_Hafs_01_W_COLOR';
-    src: url('../static/fonts/QCF4_Hafs_01_W_COLOR-Regular.woff2') format('woff2'), ;
+    src: url('../static/quran-fonts/fonts/King Fahd Complex/Hafs-QCF4-Colors/woff2/QCF4_Hafs_01_W_COLOR-Regular.woff2') format('woff2'),
+        url('../static/quran-fonts/fonts/King Fahd Complex/Hafs-QCF4-Colors/woff/QCF4_Hafs_01_W_COLOR-Regular.woff') format('woff');
 }
 
 body {

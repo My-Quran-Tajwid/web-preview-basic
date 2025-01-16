@@ -1,10 +1,27 @@
 # Quran Tajwid Font Web Demo
 
-This demo includes the `QCF4_Hafs_01_W` font coloured.
+This demo includes the `QCF4_Hafs_*` coloured fonts.
 
 Visit this link: https://my-quran-tajwid.github.io/web-preview-basic/
 
-Note: Not all glyphs are coloured yet. Work in progress.
+Note: Not all glyphs are coloured yet. Work in progress. See https://github.com/My-Quran-Tajwid/quran-fonts for details
+
+## Getting Started
+
+Clone repo with with submodules
+
+```sh
+git clone --recursive https://github.com/My-Quran-Tajwid/web-preview-basic.git
+```
+
+If you clone without the `--recursive` flag, run the following to your local repository.
+
+```sh
+git submodule init
+git submodule update
+```
+
+There is nothing to build. Simply open the `index.html` in your browser (Or use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension)
 
 ## Attributions
 
