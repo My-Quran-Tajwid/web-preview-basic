@@ -21,6 +21,12 @@ git submodule init
 git submodule update
 ```
 
+> [!TIP]
+> To update the submodules next time, run this command:
+> ```shell
+> git submodule update --remote
+> ```
+
 There is nothing to build. Simply open the `index.html` in your browser (Or use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension)
 
 ## Attributions
